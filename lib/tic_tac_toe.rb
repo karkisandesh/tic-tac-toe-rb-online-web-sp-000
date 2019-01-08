@@ -104,6 +104,7 @@ def winner(board)
 end
 
 def play(board)
+  input = gets
   count = 0
   while (count < 9 && !over?(board))
     turn(board)
